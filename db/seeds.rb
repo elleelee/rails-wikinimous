@@ -7,7 +7,6 @@
 10.times do
   article = Article.new(
     title:    Faker::Book.title,
-    content:  Faker::DrivingLicence.uk_driving_licence,
-  )
+    content:  Faker::DrivingLicence.uk_driving_licence)
   article.save
 end
